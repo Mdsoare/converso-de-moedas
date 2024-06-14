@@ -61,6 +61,17 @@ Usando como base o [Trello](https://trello.com/b/KgclcHdi/conversor-de-moeda-cha
 
 ## Referências 🔎
 
-- [W3schools](https://www.w3schools.com/);
-- [MDN](https://developer.mozilla.org/pt-BR/);
-- [Alura - Artigos Front-End](https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages).
+- [Como escrever um README](https://www.alura.com.br/artigos/escrever-bom-readme)
+- [Class HttpClient](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html)
+- [Class HttpRequest](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpRequest.html)
+- [Interface HttpResponse](https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpResponse.html)
+- [Class Scanner](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html)
+- [O que é encapsulamento?](https://www.alura.com.br/artigos/o-que-e-encapsulamento);
+- [POO: o que é programação orientada a objetos?](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos)
+- [Como não aprender Java e Orientação a Objetos: getters e setters](https://www.alura.com.br/artigos/nao-aprender-oo-getters-e-setters)
+- [Importando classes no Java](https://www.alura.com.br/artigos/importando-classes-em-java)
+- [Recebendo dados em Java](https://www.alura.com.br/artigos/recebendo-dados-em-java)
+- [O que é JSON?](https://www.alura.com.br/artigos/o-que-e-json#o-que-e-json?)
+- [JSON e Objeto JavaScript são a mesma coisa?](https://www.alura.com.br/artigos/json-e-objeto-javascript-sao-a-mesma-coisa)
+- [W3schools](https://www.w3schools.com/)
+- [MDN](https://developer.mozilla.org/pt-BR/)
