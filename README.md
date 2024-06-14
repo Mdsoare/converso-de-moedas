@@ -8,7 +8,7 @@ Usando como base o [Trello](https://trello.com/b/KgclcHdi/conversor-de-moeda-cha
 
 **Requisitos:**
 
-- Deve ter um Menu interativo com seis opções de conversão e aopção de sair:
+- Deve ter um Menu interativo com seis opções de conversão e a opção de sair:
 
 <img src=./assets/img/01.png alt="Tela de menu inicial" title="Menu inicial">
 
