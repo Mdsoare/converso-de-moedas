@@ -4,7 +4,7 @@
 | ----- | ------ |
 | <img src=./assets/img/logo.svg alt="Logotipo da Alura" title="Logo da Alura"> | <img src=./assets/img/logo-one.webp alt="Logotipo da ONE" title="Logo da ONE"> |
 
-Usando como base o [Trello](https://trello.com/b/KgclcHdi/conversor-de-moeda-challenge-one-java-back-end) disponibilizado pela Alura, deve ser criada uma aplicação que consome uma API para converter moedas e serializar um Json.
+Usando como base o [Trello](https://trello.com/b/KgclcHdi/conversor-de-moeda-challenge-one-java-back-end) disponibilizado pela Alura, deve ser criada uma aplicação que consome uma API para converter moedas e serializar um Json com a API Gson do Google importada no projeto sem o uso do Gradle ou Maven =]
 
 **Requisitos:**
 
