@@ -1,4 +1,4 @@
-# Challenge - Decodificador de Textos 
+# Challenge - Conversor de Moedas
 
 | Alura | Oracle |
 | ----- | ------ |
