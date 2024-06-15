@@ -9,6 +9,12 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static Scanner scanner = new Scanner(System.in);
+    private static double valorParaConverter, valorConvertido;
+    private static ApiUrl apiUrl = new ApiUrl();
+    private static String moedaOrigem, moedaDestino;
+    private static JsonObject jsonobj;
+
     //private static final String API_KEY = System.getenv("API_KEY");
     private static String getMoedaOrigem(int opcao) {
         switch (opcao) {
@@ -46,13 +52,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int opcao;
-        double valorParaConverter, valorConvertido;
-        ApiUrl apiUrl = new ApiUrl();
-        String moedaOrigem, moedaDestino;
-        JsonObject jsonobj;
 
+        int opcao;
         do {
             System.out.println("#########################################");
             System.out.println("Seja bem-vindo(a) ao Conversor de Moeda!");
