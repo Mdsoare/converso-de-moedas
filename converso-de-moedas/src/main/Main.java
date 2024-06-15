@@ -1,6 +1,7 @@
 package main;
 
 import com.google.gson.JsonObject;
+import service.ApiUrl;
 import service.ConsumoApi;
 import service.ConverteDados;
 
@@ -48,12 +49,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int opcao;
         double valorParaConverter, valorConvertido;
-        String apiKey = "1c6123e762663dcd77f46ae7";
+        ApiUrl apiUrl = new ApiUrl();
         String moedaOrigem, moedaDestino;
         JsonObject jsonobj;
 
         do {
+            System.out.println("#########################################");
             System.out.println("Seja bem-vindo(a) ao Conversor de Moeda!");
+            System.out.println("#########################################");
             System.out.println("1) Dólar => Peso argentino");
             System.out.println("2) Peso argentino => Dólar");
             System.out.println("3) Dólar => Real");
@@ -61,7 +64,8 @@ public class Main {
             System.out.println("5) Dólar => Peso colombiano");
             System.out.println("6) Peso colombiano => Dólar");
             System.out.println("7) Sair");
-            System.out.println("Escolha uma opção válida:");
+            System.out.println("#########################################");
+            System.out.print("Escolha uma opção válida: ");
             opcao = scanner.nextInt();
 
             if (opcao >= 1 && opcao <= 6) {
@@ -74,7 +78,7 @@ public class Main {
                 moedaOrigem = getMoedaOrigem(opcao);
                 moedaDestino = getMoedaDestino(opcao);
 
-                String url_str = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + moedaOrigem;
+                String url_str = apiUrl.getApiUrl() + "/latest/" + moedaOrigem;
                 jsonobj = ConsumoApi.getJsonResponse(url_str);
 
                 if (jsonobj != null) {
